@@ -122,10 +122,16 @@ The library cannot currently be used with hardware based on the ENC28J60 chip â€
      happened because the value of  different sensor readings  is passed as a string and store in
      variable and publish to variable inside  device esp32. 
 - **Create dashboard in ubidots**
+- Click on  add new dashboard.
 ![alt tag](https://github.com/mjScientech/Esp32-Ubidots-Wireless-long-range-Temperature-And-Humidity/blob/master/dahboard%201.JPG)
-       
-          Go to data select dashboard and inside dashboard create different widgets and add new widget 
-          to your dashboard screen.
+![alt tag](https://github.com/mjScientech/Esp32-Ubidots-Wireless-long-range-Temperature-And-Humidity/blob/master/dahboard2.JPG)
+- Name your dashboard.
+![alt tag](https://github.com/mjScientech/Esp32-Ubidots-Wireless-long-range-Temperature-And-Humidity/blob/master/dahboard3.JPG)
+- Now select Widget.
+![alt tag](https://github.com/mjScientech/Esp32-Ubidots-Wireless-long-range-Temperature-And-Humidity/blob/master/widget1.JPG)
+![alt tag](https://github.com/mjScientech/Esp32-Ubidots-Wireless-long-range-Temperature-And-Humidity/blob/master/widget5.JPG)
+- Now select all required option and your widget will create.On which you can view your temp and humidity data.
+ ![alt tag](https://github.com/mjScientech/Esp32-Ubidots-Wireless-long-range-Temperature-And-Humidity/blob/master/widget3.JPG)        
 # OUTPUT
 - **Now as the temperature/vibration  increases and decreases new data available inside the various variable.**
 ![alt tag](https://github.com/mjScientech/ESP32-AND-Long-range-temperature-and-vibration-sensor/blob/master/outputncd%20vibration.PNG)
