@@ -2,7 +2,7 @@
 ![alt tag](https://github.com/mjScientech/Esp32-Ubidots-Wireless-long-range-Temperature-And-Humidity/blob/master/imgonline-com-ua-twotoone-gnoy0scbwRu.jpg)
 **In this , we will measure  temperature and humidity using NCD  temperature and humidity sensor, Esp32, Ubidots.**
 
-Hardware :
+**Hardware** :
 - **[ESP-32](https://store.ncd.io/product/esp32-iot-wifi-ble-module-with-integrated-usb/)**:The ESP32 makes it easy to use the Arduino IDE and the Arduino Wire Language for IoT applications. This ESp32 IoT Module combines Wi-Fi, Bluetooth, and Bluetooth BLE for a variety of diverse applications. This module comes fully-equipped with 2 CPU cores that can be controlled and powered individually, and with an adjustable clock frequency of 80 MHz to 240 MHz. This ESP32 IoT WiFi BLE Module with Integrated USB is designed to fit in all ncd.io IoT products.
 
 Monitor sensors and control relays, FETs, PWM controllers, solenoids, valves, motors and much more from anywhere in the world using a web page or a dedicated server.
@@ -15,11 +15,11 @@ We manufactured our own version of the ESP32 to fit into NCD IoT devices, offeri
 - **[PARTICLE ELECTRON OR PHOTON COMPATIBLE I2C SHIELD](https://shop.controleverything.com/products/i2c-breakout-for-particle-electron-or-particle-photon)**
 - **[Long Range Wireless Mesh Modem with USB Interface](https://store.ncd.io/product/zigbee-coordinator-long-range-wireless-mesh-modem-with-usb-interface/)**:Your computer can speaks to a ZB ZigBee Network using a Coordinator.  Think of the Coordinator as the interface to a ZB ZigBee Network.  NCD ZigBee Coordinators are equipped with a USB Interface.  USB Coordinators mount as a Serial Port on your computer, and you will develop software that sends Serial commands at 115.2K Baud.  Only ONE Coordinator should be installed within a wireless ZB ZigBee Network.  Two types of Coordinators are available.  AT and API.  Normally, AT coordinators are used.  AT coordinators use Terminal-like AT commands to speak to a ZB ZigBee Network.  They are easier to use than an API coordinator.  An API coordinator uses a string of carefully chosen bytes and checksums to communicate data to a ZigBee networking.  API coordinators are harder to use, but can communicate and switch between devices much faster.  This page will introduce you to AT coordinators.  You can choose between AT and API firmware at checkout.
 
-Software Used:
+**Software Used:**
 - Arduino IDE
 - [Ubidot](https://ubidots.com/)
 
-Library Used:
+**Library Used:**
 - PubSubClient Library
 - Wire.h
 
@@ -74,11 +74,11 @@ The library cannot currently be used with hardware based on the ENC28J60 chip â€
 - Wire.read()
   Receive 1 byte.
 
-# Steps to send data to labview vibration and temperature platform using IoT Long Range Wireless Vibration And Temperature Sensor and  Long Range Wireless Mesh Modem with USB Interface-
+# Steps to send data to labview vibration and temperature platform using IoT Long Range Wireless  Temperature And Humidity Sensor and  Long Range Wireless Mesh Modem with USB Interface-
 
-- First, we need a Labview utility application which is [ncd.io Wireless Vibration and Temperature Sensor.exe](https://github.com/ncdcommunity/Industrial-IoT-Vibration-Temperature-Sensor) file on which data can be viewed.
+- First, we need a Labview utility application which is [ncd.io Wireless Temperature And Humidity Sensor.exe](https://github.com/ncdcommunity/Industrial-Wireless-IoT-Temperature-Humidity-Sensor) file on which data can be viewed.
 
-- This Labview software will work with ncd.io wireless Vibration Temperature sesnor only
+- This Labview software will work with ncd.io wireless Temperature sensor only
 
 - To use this UI, you will need to install following drivers Install run time engine from here [64bit](http://www.ni.com/download/labview-run-time-engine-2017/6821/en/)
 
@@ -93,7 +93,7 @@ The library cannot currently be used with hardware based on the ENC28J60 chip â€
 ##  Uploading the code  to ESP32 using Arduino IDE:
 - **Download and include the PubSubClient Library and Wire.h Library.**
 - **You must assign your unique Ubidots TOKEN, MQTTCLIENTNAME, SSID (WiFi Name) and Password of the available network.**
-- **Compile and upload the  [Ncd__vibration_and_temperature.ino](https://github.com/mjScientech/https-github.com-mjScientech-ESP32-AND-SI7021/blob/master/Ncd__vibration_and_temperature.ino) code.**
+- **Compile and upload the  [temp_humidity.ino](https://github.com/mjScientech/Esp32-Ubidots-Wireless-long-range-Temperature-And-Humidity/blob/master/temp_humidity.ino) code.**
 - **To verify the connectivity of the device and the data sent, open the serial monitor.If no response is seen, try unplugging your ESP32 and then plugging it again. Make sure the baud rate of the Serial monitor is set to the same one specified in your code 115200.**
 
 ## Serial monitor output.
