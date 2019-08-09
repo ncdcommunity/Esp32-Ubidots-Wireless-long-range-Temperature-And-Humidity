@@ -3,12 +3,12 @@
 #include <Wire.h>
 #include <PubSubClient.h>
 #include <HardwareSerial.h>
-#define WIFI_SSID "larson" // your wifi ssid
-#define WIFI_PASSWD "k1!@2345" //your wifi password
+#define WIFI_SSID "xxxx" // your wifi ssid
+#define WIFI_PASSWD "xxxx" //your wifi password
 
-#define CLIENT_ID "9cdef787"// thing unique ID, can be any unique id
-#define MQTT_TOPIC "$aws/things/Temp_Humidity_esp32/shadow/update" //topic for the MQTT data
-#define AWS_HOST "a1nye1vop3b7j9-ats.iot.eu-central-1.amazonaws.com" // your host for uploading data to AWS,
+#define CLIENT_ID "xxxx"// thing unique ID, can be any unique id
+#define MQTT_TOPIC "xxxxx" //topic for the MQTT data
+#define AWS_HOST "xxxxx" // your host for uploading data to AWS,
 uint8_t data[29];
 int k = 10;
 int i;
